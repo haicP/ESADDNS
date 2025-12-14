@@ -1,0 +1,8 @@
+services:
+  esaddns:
+    build: .
+    container_name: esaddns
+    volumes:
+      - ./Config.jsonc:/app/Config.jsonc
+    restart: unless-stopped
+    network_mode: host

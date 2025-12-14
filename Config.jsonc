@@ -1,0 +1,24 @@
+{
+    "Auth": {
+        "AccessKeyId": "your-access-key-id",
+        "AccessKeySecret": "your-access-key-secret"
+    },
+    "Cycle": 1,
+    "DDNSRecords": [
+        {
+            "RecordId": 123456789,
+            "IpVersion": 4,
+            "TTL": 1
+        },
+        {
+            "RecordId": 987654321,
+            "IpVersion": 6,
+            "TTL": 1
+        },
+        {
+            "RecordId": 567891234,
+            "IpVersion": 4,
+            "TTL": 1
+        }
+    ]
+}

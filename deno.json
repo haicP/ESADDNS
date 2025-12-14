@@ -1,0 +1,17 @@
+{
+    "version": "0.1.0",
+    "tasks": {
+        "run": "deno run --allow-all ./src/main.ts",
+        "dev": "deno run --allow-all ./src/main.ts",
+        "fmt": "deno fmt ./src --indent-width 4 --no-semicolons",
+        "build": "deno run --allow-all ./script/build.ts"
+    },
+    "imports": {
+        "@alicloud/credentials": "npm:@alicloud/credentials@^2.4.4",
+        "@alicloud/esa20240910": "npm:@alicloud/esa20240910@^2.35.1",
+        "@alicloud/openapi-client": "npm:@alicloud/openapi-client@^0.4.15",
+        "@alicloud/tea-typescript": "npm:@alicloud/tea-typescript@^1.8.0",
+        "@alicloud/tea-util": "npm:@alicloud/tea-util@^1.4.11",
+        "@std/jsonc": "jsr:@std/jsonc@^1.0.2"
+    }
+}
